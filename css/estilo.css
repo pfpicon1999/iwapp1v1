@@ -1,0 +1,169 @@
+/*ensenar los selectores*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background: #f3f3f3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main, .sponsorsPrincipal{
+    background: #ccc;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+.cabeceraPrincipal{
+    background-color: rgb(202, 169, 22);
+    box-shadow: #000 3px 2px 2px;
+}
+
+.cabeceraPrincipal h1{
+    color: #4C99D4;
+    padding: 10px 40px;
+    text-shadow: #000 3px 2px 2px;
+}
+.cabeceraPrincipal a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #817878;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+.menuPrincipal{
+    background-color: #DEDBDB;
+    padding-top: 10px;
+    text-align: center;
+    height: 30px;
+}
+
+.menuPrincipal a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #817878;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuPrincipal a:hover{
+    background-color: #DAFC09;
+    color: #000;
+    transition: 1s;
+}
+
+.sliderPrincipal img{
+    width: 100%;
+}
+.h2Home{
+    padding: 2em 0;
+    text-align: center;
+    color: #EE7C12;
+}
+.menu{
+    text-align: center;
+}
+.menuPlato{
+    width: 32%;
+    background: #EDEDED;
+    border: 1px solid #BBB6B6;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.menuPlato img{
+    width: 100%;
+
+}
+
+.menuPlato h3{
+    color: #EE7C12;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.menuPlato p{
+    padding: 0.2em 1;
+    font-size: 13px;
+    color:  #000000;
+    
+}
+
+.menuPlato button{
+    background-color: #55D740;
+    color: #000000;
+    padding: 0.5em 1em;
+    margin-bottom: 5px;
+}
+.menuPlato button:hover{
+    background-color: #000000;
+}
+
+.Chef{
+    text-align: center;
+}
+
+.Chefs{
+    width: 32%;
+    background: #EDEDED;
+    border: 1px solid #BBB6B6;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Chefs img{
+    border-radius: 50%;
+    
+}
+
+.Chefs h3{
+    color: #EE7C12;
+    text-align: center;
+    padding: 1em 0;
+    
+}
+
+.Chefs p{
+    padding: 0.2em 1;
+    font-size: 13px;
+    text-align: center;
+    color:  #000000;
+}
+.piePagina{
+    background-color: #CFC036;
+    color: #C1D0D4;
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+
+.piePagina h6{
+    text-align: center;
+    padding: 2em 0;
+    color: #817878;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .menuPlato{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom:  10px;
+
+    }
+} 
